@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="|O8.CrozG^Fet!$:hmEc" x="753" y="-135"><statement name="HANDLER"><block type="huskylens_request" id="|GIYYXSp..K*9OvAdNo~"><next><block type="controls_if" id="-mQru@+%f/1Y|PncoYcd"><mutation elseif="2" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="huskylens_isAppear" id=",cl``/|(QHLZV!)SdUx%"><field name="Ht">HUSKYLENSResultType_t.HUSKYLENSResultBlock</field><value name="id"><shadow type="math_number" id="Q);+?(8SbSFmlBiKfL[m"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="18jp!VjTqofGWs{K+mey"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><block type="huskylens_isAppear" id=":|8%dxNECS%q,@fRS/e_"><field name="Ht">HUSKYLENSResultType_t.HUSKYLENSResultBlock</field><value name="id"><shadow type="math_number" id="%0nN8sz7XcEB1US?bg*C"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="a~tR9GjH`{7d_MG?u4*9"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></statement><value name="IF2"><block type="huskylens_isAppear" id="HD|p;goEInFo7vUH4.g/"><field name="Ht">HUSKYLENSResultType_t.HUSKYLENSResultBlock</field><value name="id"><shadow type="math_number" id="[Mz/!3i|,Y#z:i#q]OfC"><field name="NUM">3</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="8[pzT)/!!A%sn|bG%ax{"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . .
+        `</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="7||CJl*$65.Q8M*J}-xt"><field name="i">IconNames.No</field></block></statement></block></next></block></statement></block><block type="pxt-on-start" id="D_]B~MG)b;LYhevzc_zR" x="0" y="0"><statement name="HANDLER"><block type="huskylens_initI2c" id="]SJ7mh#k|EEzESHRhGch"><next><block type="huskylens_initMode" id="w(LV@2YPtMBJ:7uqTDGz"><field name="mode">protocolAlgorithm.ALGORITHM_TAG_RECOGNITION</field><next><block type="basic_show_icon" id="m@lnoPir11I(wmcN%!|T"><field name="i">IconNames.Happy</field><next><block type="device_pause" id="TUt381/yKjCW:8m3jIl8"><value name="pause"><shadow type="timePicker" id="=dwQ(WKoLzXCt+GVb#=K"><field name="ms">500</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="zvwvN#H#qvQ2m/}~Al?d" x="533" y="-11"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_clear_display" id="yYd4UX}Cg:e.(Z$QJOLd"></block></statement></block><block type="device_button_event" id="lu!jlTs5#w:Q_9T~cq`a" x="286" y="281"><field name="NAME">Button.A</field></block></xml>
